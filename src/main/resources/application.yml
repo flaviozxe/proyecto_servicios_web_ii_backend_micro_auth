@@ -15,3 +15,8 @@ spring:
   application:
     name: MICRO-AUTH
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://servidor-eureka-production.up.railway.app/
+
