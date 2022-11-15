@@ -17,9 +17,9 @@ spring:
 
 eureka:
   instance:
-    hostname: https://micro-auth-production.up.railway.app/
+    hostname: https://micro-auth-production.up.railway.app
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: https://servidor-eureka-production.up.railway.app/
+      defaultZone: https://servidor-eureka-production.up.railway.app
