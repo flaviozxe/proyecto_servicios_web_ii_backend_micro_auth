@@ -16,10 +16,10 @@ spring:
     name: MICRO-AUTH
 
 eureka:
+  instance:
+    hostname: micro-auth-production.up.railway.app
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: https://servidor-eureka-production.up.railway.app/
-  instance:
-    hostname: 127.0.0.1
+      defaultZone: servidor-eureka-production.up.railway.app
