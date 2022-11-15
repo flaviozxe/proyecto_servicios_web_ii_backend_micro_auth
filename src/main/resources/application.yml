@@ -1,0 +1,17 @@
+server:
+  port: 8095
+
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://root:sDTDgH1FGzBN0BI0Oq8x@containers-us-west-95.railway.app:6289/railway
+    username: root
+    password: sDTDgH1FGzBN0BI0Oq8x
+
+  application:
+    name: MICRO-AUTH
+
