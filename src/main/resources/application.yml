@@ -8,18 +8,10 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://root:sDTDgH1FGzBN0BI0Oq8x@containers-us-west-95.railway.app:6289/railway
+    url: jdbc:mysql://localhost:3306/bd_nova_vita?serverTimezone=UTC
     username: root
-    password: sDTDgH1FGzBN0BI0Oq8x
+    password: Guglepad123*
 
   application:
     name: MICRO-AUTH
 
-eureka:
-  instance:
-    hostname: micro-auth-production.up.railway.app
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: servidor-eureka-production.up.railway.app
